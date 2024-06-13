@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+//import 'package:flutter/widgets.dart';
 import 'dart:math';
 
 class AnimatedScreen extends StatefulWidget {
@@ -57,7 +57,9 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
         ),
       ),
       body: Center(
-         child: Container(
+         child: AnimatedContainer(
+          duration: const Duration(milliseconds: 400),
+          curve: Curves.easeOutCubic, //Curvas de Efectos
           width: _width,
           height: _height,
           //color: Colors.red,

@@ -13,7 +13,8 @@ class AppRoutes{
     MenuOption(route: 'card',icon: Icons.card_membership_rounded, name: 'CardScreen', screen: const CardScreen()),
     MenuOption(route: 'alert',icon: Icons.bus_alert, name: 'AlertScreen', screen: const AlertScreen()),
     MenuOption(route: 'avatar', icon: Icons.all_inclusive_sharp, name: 'AvatarScreen', screen: const AvatarScreen()),
-    MenuOption(route: 'animated', icon: Icons.animation_outlined, name: 'AnimatedScreen', screen: const AnimatedScreen())
+    MenuOption(route: 'animated', icon: Icons.animation_outlined, name: 'AnimatedScreen', screen: const AnimatedScreen()),
+    MenuOption(route: 'inputs',icon: Icons.import_contacts_outlined, name: 'InputsScreen',screen: const InputsScreen())
   ];
 
 
