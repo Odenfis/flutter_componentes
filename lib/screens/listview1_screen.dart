@@ -16,7 +16,11 @@ class ListView1Screen extends StatelessWidget {
         children: [
 
           ...opciones.map(
-            (v) => Text(v)
+            (v) => ListTile(
+              leading: Icon(Icons.rocket_launch_rounded),
+              title: Text(v),
+              trailing: Icon(Icons.arrow_back_ios),
+            )
           )
 
           /*
