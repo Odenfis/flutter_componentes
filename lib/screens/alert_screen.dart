@@ -8,7 +8,7 @@ class AlertScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-         child: Text('AlertScreen'),
+         child: Text('AlertScreen - Pagina en construccion'),
       ),
     );
   }

@@ -1,3 +1,4 @@
+//import 'package:fl_componentes/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -22,7 +23,11 @@ class HomeScreen extends StatelessWidget {
         leading: Icon(Icons.settings_input_hdmi_rounded),
         title: Text('Items de prueba'),
         trailing: Icon(Icons.add_circle_outline_rounded),
-        onTap: (){},
+        onTap: (){
+          //final route = MaterialPageRoute(builder:(context) => AlertScreen());
+          //Navigator.push(context, route);
+          Navigator.pushNamed(context, 'tarjeta');
+        },
       ), 
       separatorBuilder:(context, index) => Divider(), 
       itemCount: 20),
