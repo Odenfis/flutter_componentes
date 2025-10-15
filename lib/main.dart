@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       //home: HomeScreen(),
       initialRoute: AppRoutes.initialRoute,
-      routes: AppRoutes.routes,           
+      routes: AppRoutes.getAppRoutes(),           
       onGenerateRoute: AppRoutes.onGenerateRoute
     );
   }
